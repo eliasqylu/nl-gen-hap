@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local runtime state
+.local/
+.streamlit/
+
+# OS
+.DS_Store
