@@ -77,7 +77,7 @@ with col1:
 
 with col2:
     st.subheader("感受层评分")
-    st.json(track.sensation.model_dump(), expanded=True)
+    st.json(track.sensation.model_dump(mode="json"), expanded=True)
 
 # --- Chat input ---
 prompt = st.chat_input("描述想要的振动反馈，例如：一次沉闷的落地，带一点余震。", disabled=not KEY_OK)
