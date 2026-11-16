@@ -18,7 +18,7 @@ load_dotenv(ROOT / ".env")
 import streamlit as st
 from langchain_core.messages import HumanMessage, AIMessage
 
-from app.ir_model import sample_splash, sample_impact, HapticBlock
+from app.ir_model import sample_splash, sample_impact, HapticTrack
 from app.signal_preview import render_track
 from app.llm_interface import generate_track
 
